@@ -60,7 +60,7 @@ height:100%;
 width:100%;
 
 padding: 5vw 4vw;
-background-image: url(images/icon-PhotoRoom.png-PhotoRoom.png);
+background-image: url(images/icon-PhotoRoom.png-PhotoRoom.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-position: center;
@@ -83,7 +83,7 @@ fieldset {
 
 legend {
     font-weight: bolder;
-    background-image: url(images/icon-PhotoRoom.png-PhotoRoom.png);
+    background-image: url(images/icon-PhotoRoom.png-PhotoRoom.jpg);
 
 }
 
@@ -103,7 +103,7 @@ select {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 7px;
-    background-image: url(images/icon-PhotoRoom.png-PhotoRoom.png);
+    background-image: url(images/icon.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-position-x: right;
