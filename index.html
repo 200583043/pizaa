@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizzeria da mario</title>
+    <link rel="stylesheet" href="pizza.css">
+    <link rel="shortcut icon" href="images/icon.webp" type="icon">
+    
+
+</head>
+
+<body> 
+    <!-- naviagtion bar is here  -->
+    <header>
+        <div class="nav" id="home">
+            <h2>
+                pizzeria da mario<span>&#8979</span>
+            </h2>
+            <div class="nav-part2">
+                <h4>
+                    home
+                </h4>
+               
+                <h4>
+                    Order here 
+                </h4>
+                <h4>
+                    contact us
+                </h4>
+
+            </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="Pfrom">
+                <form  method="post" action="pizza.html">
+
+                    <!-- Personal Information Section starts from here-->
+                    <fieldset>
+                        <legend>Enter Your Personal Information</legend>
+                        <label>Name:</label>
+                        <input type="text"  name="f-name" required>
+        
+                        <label for="phone">Phone:</label>
+                        <input type="tel"  name="phone-number" pattern="[0-9]{10}" placeholder="enter your number" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="someone@exmaple.com">
+                    </fieldset>
+        
+                    <!-- here is your pizza details -->
+                    <fieldset>
+                        <legend>Details of Pizza</legend>
+                        <label for="num-pizzas">Number of Pizzas:</label>
+                        <input type="number" name="num-pizzas" min="1 or 1/2" required>
+        
+                        <label for="pizza-size">Size:</label>
+                        <select id="pizza-size" name="pizza-size" required>
+                            <option value="small">Small</option>
+                            <option value="slice">Slice</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="Extralarge">Extra-large</option>
+                        </select>
+        
+                        <label for="shape of pizza">Shape:</label>
+                        <input type="radio"  name="pizza-shape" value="round" checked>
+                        <label for="round">Round</label>
+                        <input type="radio"  name="pizza-shape" value="square">
+                        <label for="square">Square</label>
+                        <input type="radio" name="pizza-shape" value="half">
+                        <label for="square">half</label>
+        <br/>
+                        <label for="toppings">Toppings:</label>
+                        <textarea id="toppings" name="toppings" placeholder="Enter your toppings"></textarea>
+        <br>
+                        <label for="crust-type">Crust Type:</label>
+                        <select id="crust-type" name="crust-type">
+                            <option value="deep-dish">Deep Dish</option>
+                            <option value="thin-crust">Thin Crust</option>
+                            <option value="regular">Regular</option>
+                            <option value="crispy thin">Crispy Thin</option>
+                            <option value="soft pan"> Soft Pan</option>
+                            <option value="Extreme Cheese">Fully loaded Cheese</option>
+                            <option value="Deep chesse mozrilla">Dobule Cheese</option>
+                            <option value="Chocolate">Butter Chocolate</option>
+                        </select>
+                    </fieldset>
+        
+                    <!-- Delivery Options Tyeps -->
+                    <fieldset>
+                        <legend>Tyeps of Delivery Methods</legend>
+                        <label>Delivery Method:</label>
+                        <input type="radio" id="takeout" name=" methpd of delivery" value="takeout">
+                        <label for="takeout">Takeout</label>
+                        <input type="radio" id="delivery" name="method of delivery" value="delivery" checked>
+                        <label for="delivery">Delivery</label>
+                        <input type="radio" id="eat-in" name="method of delivery" value="eat-in">
+                        <label for="eat-in">Eat-in</label>
+                    </fieldset>
+        
+                    <!-- Submit Button -->
+                    <input type="submit" value="Place Order Here">
+                    <input type="reset" value="Reset Form">
+        
+                </form>
+            </div>
+           
+        </div>
+        <footer>
+
+            <div class="credit"> created <span> for the class project </span> | all rights reserved </div>
+         
+        </footer>
+      
+    </main>
+
+</body>
+
+</html>
